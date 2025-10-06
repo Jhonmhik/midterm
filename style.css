@@ -1,0 +1,344 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    pa
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo  {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: x-large;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.section-title {
+    margin-bottom: 40px;
+}
+  
+
+
+.section-title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #007BFF;
+    margin: 10px auto 0;
+}
+
+
+#about {
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: x-large;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    
+    
+}
+
+.about-image-container {
+    display: flex;
+    gap: 20px;
+}
+
+.about-section .about-image {
+  width: 300px;
+  height: 300px;
+  border: 3px solid #000000;
+  border-radius: 50%; 
+}
+.about-section-title{
+    max-width: 1500px;
+    text-align: center;
+    font-size: xx-large;
+}
+.about-image {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border: 3px solid #000000;
+}
+
+.about-section p{
+    font-size: 28px;
+    line-height: 1.5;    
+}
+.about-text {
+    max-width: 1000px;
+    margin-left: 20px;
+    font-family: monospace;
+}
+
+.about-text p {
+    font-size: 28px;
+    line-height: 1.5;
+     margin-left: 50px;
+    
+}
+
+.about-text h1{
+    font-size: 28px;
+    line-height: 1.5;
+     margin-left: 50px;
+    
+}
+
+.hobbies-grid,
+.skills-grid,
+.services-grid 
+p
+h1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: x-large;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+
+.hobby-item,
+.skill-item,
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 250px;
+}
+
+.hobby-item img,
+.skill-item img,
+.service-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.hobbies-description {
+    margin-top: 30px;
+    font-style: monospace;
+    font-size: large;
+}
+
+.gallery-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.gallery-section {
+    margin-bottom: 20px;
+}
+
+.gallery-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery-images img {
+    width: 200px;
+    height:  100px;
+    border: #000000;
+    box-shadow: 0 2px 4px rgba(187, 13, 13, 0.1);
+    gap: 220px;
+}
+
+.gallery-description {
+    margin-top: 30px;
+    font-style: italic;
+}
+
+
+.reviews-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.review-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+.review-initials {
+    width: 60px;
+    height: 60px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto 15px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #007BFF;
+}
+
+.copyright {
+   margin-top: 10px;
+    font-size: 14px;
+}
+
+/* --- GALLERY SLIDER CSS --- */
+
+/* The main wrapper for the gallery content */
+.gallery-container {
+    position: relative; /* Needed to position the buttons inside */
+    max-width: 1000px; /* Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden; /* This is key: it hides the slides that are off-screen */
+}
+
+/* The element that will slide horizontally */
+.gallery-slider {
+    display: flex; /* Arranges all slides in a row */
+    transition: transform 0.5s ease-in-out; /* Smooth sliding transition */
+}
+
+/* Individual slide item */
+.gallery-slide {
+    min-width: 100%; /* Each slide takes up the full width of the container */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-slide h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333; /* Use a color that matches your theme */
+}
+
+.gallery-slide img {
+    max-width: 48%; /* Allows two images side-by-side */
+    height: auto;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Buttons */
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 10; /* Ensure buttons are above the slides */
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
