@@ -404,10 +404,12 @@ footer {
     margin-bottom: 15px;
 }
 
-/* Description Styling */
+/* Description Styling */       
 .service-item p {
     font-size: 1em;
     color: #666;
     line-height: 1.5;
 }
+
+
 
