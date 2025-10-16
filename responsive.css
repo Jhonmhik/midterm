@@ -128,13 +128,13 @@
 }
 
 
-/* ===== RESPONSIVE NAVBAR (Dropdown) ===== */
 
 .menu-toggle {
   display: none;
   font-size: 26px;
   color: #fff;
   cursor: pointer;
+  border-top: 2px solid #000000;
 }
 
 /* --- Mobile view --- */

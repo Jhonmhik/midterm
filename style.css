@@ -26,7 +26,7 @@
             padding: 15px 50px; 
             background-color: #333;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            z-index: 1000;
+            z-index: 1000;w
             
         }
          
@@ -459,16 +459,13 @@
         }
 
 
-
-       
-
-
-.menu-toggle {
+        .menu-toggle {
   display: none;
   font-size: 26px;
   color: #fff;
   cursor: pointer;
   user-select: none;
+  border-top: 2px solid #030303;
 }
 
 
@@ -547,3 +544,7 @@
 
 .dropbtn { text-decoration: none; color: #fff; padding: 8px 14px; display:inline-block; border-radius:5px; }
 .dropbtn::after { content: " ▼"; font-size: 12px; margin-left:4px; }
+
+       
+
+
